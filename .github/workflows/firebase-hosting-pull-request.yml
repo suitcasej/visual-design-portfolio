@@ -13,5 +13,5 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_JORDAN_PORTFOLIO_96518 }}'
-          projectId: jordan-portfolio-96518
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_VISUAL_DESIGN_PORTFOLIO }}'
+          projectId: visual-design-portfolio
