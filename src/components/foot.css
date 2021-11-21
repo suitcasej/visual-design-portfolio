@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "HelveticaNow-Light";
+  src: local("HelveticaNow-Light"),
+    url(../Assets/HelveticaNowText-Light.ttf) format("woff");
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                                  'embedded-opentype', and 'svg' */
+}
+
+@font-face {
+  font-family: "HelveticaNow-Regular";
+  src: local("HelveticaNow-Regular"),
+    url(../Assets/HelveticaNowText-Regular.ttf) format("woff");
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                                'embedded-opentype', and 'svg' */
+}
+
+@font-face {
+  font-family: "HelveticaNow-Bold";
+  src: local("HelveticaNow-Bold"),
+    url(../Assets/HelveticaNowText-Bold.ttf) format("woff");
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                                'embedded-opentype', and 'svg' */
+}
+
+@font-face {
+  font-family: "HelveticaNow-ExtraLight";
+  src: local("HelveticaNow-ExtraLight"),
+    url(../Assets/HelveticaNowText-Light.ttf) format("woff");
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                                    'embedded-opentype', and 'svg' */
+}
+
+.moProjects {
+  font-family: "HelveticaNow-Regular";
+  font-size: 24px;
+  color: white;
+  padding-top: 117px;
+  padding-bottom: 87px;
+  display: table;
+  margin: auto;
+}
+
+.imageContainer {
+  display: flex;
+}
+
+.containerItem {
+  overflow: hidden;
+  width: 537px;
+  margin: auto;
+}
+
+.containerItem img {
+  transition: transform 0.02s ease-in, 0.08s ease, 0.3s ease-out;
+}
+
+.containerItem:hover img {
+  transform: scale(1.1);
+}
+
+.name_social li a {
+  margin-right: 20px;
+  font-size: 14px;
+  border-bottom: 1px solid white;
+  height: 50px;
+  text-decoration: none;
+  color: white;
+  transition: all ease-in-out 0.4s;
+}
+
+.name_social ul {
+  display: flex;
+}
+
+.name_social li a:hover {
+  opacity: 0;
+  filter: blur(5px);
+  transition: all ease-in-out 1.1s;
+}
+
+@media (max-width: 767px) {
+}

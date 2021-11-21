@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "HelveticaNow-Light";
+  src: local("HelveticaNow-Light"),
+    url(../Assets/HelveticaNowText-Light.ttf) format("woff");
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                                'embedded-opentype', and 'svg' */
+}
+
+@font-face {
+  font-family: "HelveticaNow-ExtraLight";
+  src: local("HelveticaNow-ExtraLight"),
+    url(../Assets/HelveticaNowText-Light.ttf) format("woff");
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                                  'embedded-opentype', and 'svg' */
+}
+
+.dcw_hContainer {
+  display: block;
+  padding-top: 217px;
+  padding-left: 376px;
+  padding-bottom: 150px;
+  margin: 20px;
+}
+
+.title1 {
+  font-family: "HelveticaNow-Regular";
+  font-size: 36px;
+}
+
+.disc1 {
+  /* font-family: "HelveticaNow-Light"; */
+  font-size: 18px;
+}
+
+.comply1 {
+  font-family: "HelveticaNow-ExtraLight";
+  font-size: 14px;
+  width: 474px;
+  padding-top: 30px;
+}
+
+/* Team Section */
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 215px;
+  padding-bottom: 215px;
+  margin: 20px;
+}
+
+.dcwContainer {
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left {
+  display: block;
+}
+
+.divide {
+  opacity: 100;
+  width: 300px;
+}
+
+.sectionNumber {
+  font-size: 14px;
+}
+
+.regText {
+  font-size: 24px;
+}
+
+.regText2 {
+  font-size: 18px;
+  max-width: 700px;
+  margin-left: 96px;
+}
+
+/* Email */
+.Email {
+  border-style: solid;
+  border-color: black;
+  border-width: 0.5px;
+  border-radius: 33px;
+  width: 240px;
+  height: 80px;
+  background-color: white;
+  text-decoration: none;
+  font-size: 23.03px;
+  display: block;
+  margin: auto;
+  margin-bottom: 210px;
+}
+
+.Email:hover {
+  background-color: black;
+  color: white;
+  transition: 0.2s ease-in;
+}
+
+.wrapper2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 215px;
+  padding-bottom: 100px;
+  margin: 20px;
+}
+
+@media (max-width: 767px) {
+  .dcw_hContainer {
+    display: block;
+    padding-top: 217px;
+    padding-left: 0px;
+    margin: 20px;
+    padding-bottom: 150px;
+  }
+
+  .dcwContainer {
+    display: block;
+  }
+
+  .regText2 {
+    padding-top: 25px;
+    margin-left: 0px;
+  }
+}

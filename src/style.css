@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "HelveticaNow-Regular";
+  src: local("HelveticaNow-Regular"), url(./Assets/HelveticaNowText-Regular.ttf) format("woff");
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+}
+
+body {
+  font-family: "HelveticaNow-Regular";
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+/* #no-scroll {
+  overflow: hidden;
+  height: 100vh;
+} */
+
+/* --------- */
+/*Scrollbar   */
+/* --------- */
+
+::-webkit-scrollbar {
+  width: 7px;
+}
