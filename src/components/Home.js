@@ -53,15 +53,14 @@ function Home() {
         transition={{ delay: 0.3 }}
       >
         {/* Parallax effect to the hero page: Opening fast */}
-        {/* <EnvelopeO speed={9} percentage={0.5}>
+        <EnvelopeO speed={9} percentage={0.5}>
           <Hero />
-        </EnvelopeO> */}
+        </EnvelopeO>
 
         {/* Parallaz effect to the project page: Opening slow */}
         <EnvelopeO
           speed={-3}
           percentage={0.9}
-          zIndex={-100}
           style={{ position: "absolute", zIndex: "-100" }}
           wrapper={"#projects"}
         >
