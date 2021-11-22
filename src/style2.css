@@ -80,6 +80,7 @@
   width: 100%;
   color: black;
   box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.15);
+  opacity: 100%;
 }
 
 .loadContainer hr {
@@ -185,10 +186,10 @@
     bottom: 0;
     margin-bottom: 100px;
     display: block;
-    width: 378px;
     position: absolute;
     left: 0;
-    margin-left: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
 
@@ -459,5 +460,33 @@
 
   .name_social_list {
     padding-right: unset;
+  }
+}
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .launch_textbox {
+    top: 450px;
+    bottom: 0;
+    margin-bottom: 100px;
+    display: block;
+    width: 350px;
+    position: absolute;
+    left: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .selfPortrait {
+    padding-top: 20px;
+    justify-self: unset;
+    width: 219px;
+  }
+  .who {
+    width: 300px;
+  }
+
+  .liveInfo {
+    font-size: 14px;
   }
 }
