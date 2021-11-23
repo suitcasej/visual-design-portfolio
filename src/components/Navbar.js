@@ -47,7 +47,7 @@ const Navbar1 = () => {
 
   return (
     <Navbar
-      style={{ ...navbarStyles, top: visible ? "0" : "-60px" }}
+      style={{ ...navbarStyles, top: visible ? "0" : "0" }}
       expanded={expand}
       fixed="top"
       expand="lg"
